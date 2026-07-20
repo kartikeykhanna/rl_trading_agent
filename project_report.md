@@ -342,7 +342,7 @@ The following metrics are computed for comparison:
 
 The following table shows the key metrics from the evaluation on the test period (Sep 2023 — Dec 2024, 286 trading days):
 
-![Performance Metrics Comparison Table](C:/Users/dihsa/.gemini/antigravity/brain/40cfd21f-478b-4c73-b2e0-06a2262dbe32/metrics_table.png)
+![Performance Metrics Comparison Table](results/plots/metrics_table.png)
 
 **Numerical Summary (from saved evaluation):**
 
@@ -356,19 +356,19 @@ The following table shows the key metrics from the evaluation on the test period
 
 ### 6.2 Portfolio Value Comparison
 
-![Portfolio Value Comparison: Sentiment vs Baseline vs Buy & Hold](C:/Users/dihsa/.gemini/antigravity/brain/40cfd21f-478b-4c73-b2e0-06a2262dbe32/portfolio_comparison.png)
+![Portfolio Value Comparison: Sentiment vs Baseline vs Buy & Hold](results/plots/portfolio_comparison.png)
 
 The portfolio comparison chart shows that the **Sentiment Agent** (blue line) consistently outperforms both the Baseline Agent and Buy & Hold throughout the test period. The sentiment agent achieves higher portfolio peaks (exceeding $15,000 in mid-2024) and maintains a higher trajectory, demonstrating active alpha generation through sentiment-informed trading decisions.
 
 ### 6.3 Drawdown Comparison
 
-![Drawdown Comparison](C:/Users/dihsa/.gemini/antigravity/brain/40cfd21f-478b-4c73-b2e0-06a2262dbe32/drawdown_comparison.png)
+![Drawdown Comparison](results/plots/drawdown_comparison.png)
 
 The drawdown plot reveals that the sentiment agent maintains **shallower drawdowns** during most of the test period compared to the baseline and buy-and-hold strategies. Maximum drawdown for the sentiment agent is 15.20%, compared to 16.61% for the baseline/buy-and-hold, indicating improved risk management through sentiment-aware position exiting.
 
 ### 6.4 Daily Returns Distribution
 
-![Daily Returns Distribution](C:/Users/dihsa/.gemini/antigravity/brain/40cfd21f-478b-4c73-b2e0-06a2262dbe32/returns_distribution.png)
+![Daily Returns Distribution](results/plots/returns_distribution.png)
 
 The daily returns distribution shows:
 - **Sentiment Agent**: Mean daily return of 0.112%, with a concentrated distribution around zero (many days in cash) and moderate tails.
@@ -379,7 +379,7 @@ The sentiment agent's distribution reflects its **active trading strategy** (22 
 
 ### 6.5 Stock Price vs Portfolio Value Overlay
 
-![Stock Price vs Portfolio Value](C:/Users/dihsa/.gemini/antigravity/brain/40cfd21f-478b-4c73-b2e0-06a2262dbe32/price_portfolio_overlay.png)
+![Stock Price vs Portfolio Value](results/plots/price_portfolio_overlay.png)
 
 This dual-axis chart overlays the AAPL stock price with the sentiment agent's portfolio value, showing how the agent's active trading (entry/exit decisions) results in portfolio movements that diverge from the underlying stock — particularly outperforming during the mid-2024 rally period.
 
